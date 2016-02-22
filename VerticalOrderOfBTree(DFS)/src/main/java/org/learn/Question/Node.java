@@ -1,4 +1,4 @@
-package org.learn.PrepareTree;
+package org.learn.Question;
 
 public class Node {
 	public int data;
@@ -15,7 +15,7 @@ public class Node {
 		this.left = null;
 		this.right = null;
 	}
-	
+
 	public static Node createNode(int number) {
 		return new Node(number);
 	}
